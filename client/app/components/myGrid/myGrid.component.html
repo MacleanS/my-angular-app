@@ -1,0 +1,27 @@
+"<div class="columns is-multiline">
+    <div ng-repeat="service in myGridController.services" class="column is-4">
+        <div class="card">
+            <div class="card-content">
+                <div class="media">
+                    <div class="media-content">
+                        <div class="title is-pulled-left is-6">
+                            <span ng-bind="service.name"></span>
+                        </div>
+                        <div class="title is-pulled-right is-6">
+                            <span ng-bind="service.price"></span>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="content" ng-bind="service.desc">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!--<div ng-repeat="service in myGridController.services" >-->
+            <!--<p ng-bind="service.name"></p>-->
+            <!--<p ng-bind="service.price"></p>-->
+            <!--<p ng-bind="service.desc"></p>-->
+    <!--</div>-->

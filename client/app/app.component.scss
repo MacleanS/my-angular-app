@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:700');
+@import '/styles/bulma';
+
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  background-color: #edeceb;
+  color: white;
+}
+
+.navbar {
+  height:90px;
+  background: #268ac4;
+}
+
+.nav-item{
+  font-size:40px;
+  color:white !important;
+}
+
+.card{
+  height:100%;
+  border-radius: 7px;
+}
+
+.title{
+  color: #1836a7 !important;
+  font-size:20px;
+}
+
+.price-title{
+  font-size:20px;
+}
+
+.title:not(:last-child), .subtitle:not(:last-child) {
+  margin-bottom: 0 !important;
+}
